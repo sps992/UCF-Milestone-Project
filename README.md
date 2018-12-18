@@ -66,9 +66,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In this project I have used the following technologies and royalty free material...
 
-- [JQuery](https://jquery.com)
+- [Video](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
 
@@ -110,7 +110,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+
+- [Video](https://videos.pexels.com/videos/rock-band-concert-857173)
+    - This project uses a royalty free video from a website called 'Pexels'. I have used this to visualise the dummy content for the band. -
+   
+- [Audio](https://www.free-stock-music.com/nicolai-heidlas)
+    - This project uses a royalty free audio from a website called 'free-stock-music'. I took interest in a particular artist called Nicolai Heidlas, who made some great royalty free audio clips. I have used this accompolish the briefs target of embedding example music. -
 
 ### Acknowledgements
 

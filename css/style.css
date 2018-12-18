@@ -11,14 +11,21 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
 
 .navbar-default{
     background-color:rgb(50, 50, 50,0.7);
+    
 }
 
 .navbar-brand {font-family: 'Permanent Marker', cursive; 
     
+    
+}
+
+.navbar-default .navbar-brand{
+    color:rgb(192, 219, 226,1);
 }
 
 .navbar-default .navbar-brand:hover{
-    color:#C0DBE2;
+    color:rgb(51, 51, 51,1);
+    
 }
 
 
@@ -53,12 +60,17 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
     padding-top:20px;
 }
 
-.about-us-container{
+.content-container{
     margin-bottom: 70px;
 }
 
+/*---------------------------------------------Grid ---*/
+
+
 
 /*---------------------------------------------Content---*/
+
+
 
 .hero-image {
 
@@ -90,8 +102,120 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
     
 }
 
+.photos-image{
+   background-image: url("../images/photos-image.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        width:100%;
+        height:500px; 
+}
+
+.social-link-bold{
+     padding-left: 15px;
+    padding-right: 15px;
+    font-size: 3.3rem;
+}
+
+.social-link-bold a{
+    color:#C0DBE2;
+}
+
+.social-link-bold a:hover{
+    color:rgb(51, 51, 51,1);
+}
 
 
+
+/*---------------------------------------------Band Photos---*/
+
+.band-photo-one{
+    background-image: url("../images/rock-photo-one.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height:200px;
+       
+}
+
+.band-photo-two{
+    background-image: url("../images/rock-photo-two.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        
+        height:200px;
+}
+
+.band-photo-three{
+    background-image: url("../images/rock-photo-three.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+       
+        height:200px;
+}
+
+.band-photo-four{
+    background-image: url("../images/rock-photo-four.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        
+        height:200px;
+}
+
+.band-photo-five{
+    background-image: url("../images/rock-photo-five.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        
+        height:200px;
+}
+
+
+/*---------------------------------------------Form---*/
+
+.contact-form{
+    font-family: 'Open Sans', sans-serif;
+   
+     max-width:70%;
+    
+}
+.form-description{
+    width:100%;
+}
+
+.input-group-addon{
+    color:#fff;
+    background-color: #C0DBE2;
+}
+
+.btn-form{
+    color:#ffff;
+    background-color:#C0DBE2;
+     font-weight:bold;
+    
+}
 
 /*---------------------------------------------Footer---*/
 
@@ -112,3 +236,4 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
 .social-link a:hover{ 
    color:#C0DBE2;
     }
+    
