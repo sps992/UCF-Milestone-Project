@@ -64,6 +64,7 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
     margin-bottom: 70px;
 }
 
+
 /*---------------------------------------------Grid ---*/
 
 
@@ -158,11 +159,37 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
     color:rgb(51, 51, 51,1);
 }
 
+/*---------------------------------------------photo Carousel---*/
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+  max-width: 784px;
+  margin:auto;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+   
+}
+  
+
 
 
 /*---------------------------------------------Band Photos---*/
 
-.band-photo-one{
+.carousel-item-1{
     background-image: url("../images/rock-photo-one.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -174,7 +201,7 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
        
 }
 
-.band-photo-two{
+.carousel-item-2{
     background-image: url("../images/rock-photo-two.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -186,7 +213,7 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
         height:200px;
 }
 
-.band-photo-three{
+.carousel-item-3{
     background-image: url("../images/rock-photo-three.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -198,7 +225,7 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
         height:200px;
 }
 
-.band-photo-four{
+.carousel-item-4{
     background-image: url("../images/rock-photo-four.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -210,7 +237,7 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
         height:200px;
 }
 
-.band-photo-five{
+.carousel-item-5{
     background-image: url("../images/rock-photo-five.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -267,3 +294,46 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
    color:#C0DBE2;
     }
     
+/*---------------------------------------------Media Queries---*/
+
+@media only screen and (max-width: 320px){
+    .carousel{
+        height:300px;
+    }
+
+    .carousel .item {
+  height: 300px;
+  background-color: #777;
+}
+    
+    
+}
+
+@media only screen and (min-width: 1024px){
+    .carousel{
+       max-width:970px;
+    }
+
+    .carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+    
+    
+}
+
+@media only screen and (min-width: 1440px){
+    .carousel{
+       max-width:1170px;
+    }
+
+    .carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+    
+    
+}
+
+
+
