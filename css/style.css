@@ -102,6 +102,36 @@ p{font-family:'Open Sans', sans-serif; font-weight:400;}
     
 }
 
+.videos-image {
+
+        background-image: url("../images/videos.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        width:100%;
+        height:500px;
+        
+    
+}
+
+.music-image {
+
+        background-image: url("../images/music.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        width:100%;
+        height:500px;
+        
+    
+}
+
 .photos-image{
    background-image: url("../images/photos-image.jpg");
         background-repeat: no-repeat;
