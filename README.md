@@ -51,25 +51,35 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In this section, I am going to analyse the different parts of the website. What I have used in those parts and why.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- Hero Image - I have decided to use a full-width hero image on all of my pages. Why? It creates a nice starting place for any webpage and keeps the visitor engaged, more likely for them to scroll down the page than to navigate somewhere else. I have coded these images to look good on all devices by choosing to set them to scale proportionally to cover a certain area at all times. This ensures that the branding throughout the pages is consistent.  
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Contact Form - I have produced a contact form on the 'Hire Us' page of the website. I used the bootstrap website for help on shortcodes and code snippets. As I have written code like this before I found it quite easy to manipulate the contact form to fit the overall theme and branding of the site. Thanks to Bootstraps built in form validation, it gives a nice professional feel as you can set inputs as required fields and makesure the user can not submit the form without filling them in.
+
+- Embedded Audio - This is not something I have needed to do before, so it took a bit of head scratching and browsing the w3schools website to gain the much needed knowledge. I located some royalty free audio which fit the brief( as best I could) and uploaded it to the cloud9 workspace( please see 'Media' for acknowledgements for the audio).
+
+- Carousel - I have used the Bootstrap carousel as the framework to build my carousel on the 'photos' page. I used the Bootstrap version as its quite simple to implement and fairly pain free. It is also remarkably easy to manipulate the code to whatever dimensions you want and creating media queries so it falls into line with the expanding and collapsing of the page.
+
+- Video - I have included a royalty free( please see 'Media' for reference) video which I have embedded nicely into the layout of the page. Compared to the carousel, this was a walk in the park and only took a little while to get it the way I wanted to without looking up any additional 'know-how'.
+
 
 ### Features Left to Implement
-- Another feature idea
+- Server-side Validation - As this project focuses solely on frontend web developing, I have not set up any server-side validation for the contact form. This is always good practice to have in the real world as you are not relying on frontend alone for validation and will then avoid the pitfulls that come with relying on frontend validation.
+
+- 
 
 ## Technologies Used
 
-In this project I have used the following technologies and royalty free material...
+In this project I have used the following technologies to create my project...
 
-- [Video](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- Bootstrap - I have used multiple snippets from Bootstrap. Including core parts of its pre-built css and javascript.
+
+- Javascript - As mentioned above, I neede the javascript to run the transitions on my carousel.
+
+
 
 
 ## Testing
@@ -110,6 +120,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
+In this project I have used the following royalty free material...
 
 - [Video](https://videos.pexels.com/videos/rock-band-concert-857173)
     - This project uses a royalty free video from a website called 'Pexels'. I have used this to visualise the dummy content for the band. -
@@ -118,5 +129,6 @@ In addition, if it is not obvious, you should also describe how to run your code
     - This project uses a royalty free audio from a website called 'free-stock-music'. I took interest in a particular artist called Nicolai Heidlas, who made some great royalty free audio clips. I have used this accompolish the briefs target of embedding example music. -
 
 ### Acknowledgements
+-I would like to thank the w3schools website( https://www.w3schools.com/default.asp ) for saving me hours of scrolling through half-decent threads on Stack Overflow before I got the information I need.
 
-- I received inspiration for this project from X
+- On that note I would also like to thank multiple threads on Stack Overflow for giving me hints and tips on the more fiddly css elements that I wanted to manipulate.
