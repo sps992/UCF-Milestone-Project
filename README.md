@@ -123,12 +123,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 In this project I have used the following royalty free material...
 
 - [Video](https://videos.pexels.com/videos/rock-band-concert-857173)
-    - This project uses a royalty free video from a website called 'Pexels'. I have used this to visualise the dummy content for the band. -
+    - This project uses a royalty free video from a website called 'Pexels'. I have used this to visualise the dummy content for the band. 
    
 - [Audio](https://www.free-stock-music.com/nicolai-heidlas)
-    - This project uses a royalty free audio from a website called 'free-stock-music'. I took interest in a particular artist called Nicolai Heidlas, who made some great royalty free audio clips. I have used this accompolish the briefs target of embedding example music. -
+    - This project uses a royalty free audio from a website called 'free-stock-music'. I took interest in a particular artist called Nicolai Heidlas, who made some great royalty free audio clips. I have used this accompolish the briefs target of embedding example music. 
 
 ### Acknowledgements
--I would like to thank the w3schools website( https://www.w3schools.com/default.asp ) for saving me hours of scrolling through half-decent threads on Stack Overflow before I got the information I need.
+- I would like to thank the w3schools website( https://www.w3schools.com/default.asp ) for saving me hours of scrolling through half-decent threads on Stack Overflow before I got the information I need.
 
 - On that note I would also like to thank multiple threads on Stack Overflow for giving me hints and tips on the more fiddly css elements that I wanted to manipulate.
