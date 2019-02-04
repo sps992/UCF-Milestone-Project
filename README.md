@@ -37,13 +37,14 @@ Also, they are in the process of creating a social media presence and would like
 
 <li>I will then progress to implementing the intial code in order to made this happen.</li>
 
-<li>Lastly, but by far not the leas important! I wil check over my code with a fine tooth comb and makesure everything is looking as it should and look for grammatical errors.</li>
+<li>Lastly, but by far not the least important! I wil check over my code with a fine tooth comb and makesure everything is looking as it should and look for grammatical errors.</li>
 
 </ol>
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+I have intently followed the brief and modelled my website on a simple but effective navigation structure. This is to keep the older generation of fans safe and happy through the navigation and scrolling through the website. However I have kept a fresh minimalist theme in order to not scare away the potential younger fan base.
+
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -76,14 +77,19 @@ In this section, I am going to analyse the different parts of the website. What 
 
 In this project I have used the following technologies to create my project...
 
-- Bootstrap - I have used multiple snippets from Bootstrap. Including core parts of its pre-built css and javascript.
+- Bootstrap - I have used multiple snippets from Bootstrap. Including core parts of its pre-built css and javascript. https://getbootstrap.com/
 
-- Javascript - As mentioned above, I neede the javascript to run the transitions on my carousel.
+- Javascript - As mentioned above, I needed the javascript to run the transitions on my carousel. 
+https://www.javascript.com/
 
-
+- JQuery - I used JQuery alongside the bootstrap framework, which helped add functionality to my site.
+https://jquery.com/
 
 
 ## Testing
+
+I feel I have throughly tested my site in multiple ways.
+Firstly, I have used the top navigation bar to navigate from one page to another in all the different combinations to check I haven't got any deadlinks. I have also added dummy links to my social links at the bottom. Why? This way I have tested that the anchor tag is working correctly and can be implemented properly if my website was in the real world and had working links.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
