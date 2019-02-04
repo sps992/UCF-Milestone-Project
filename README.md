@@ -11,6 +11,7 @@ Hi there! Welcome to my first milestone project!
 
 I have been tasked to build a website, combining the Frontend skills I have learnt from the first three modules.
 
+View it live it here: https://sps992.github.io/UCF-Milestone-Project/
 
 <h5>What Now?</h5>
 
