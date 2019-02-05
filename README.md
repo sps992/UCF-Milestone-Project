@@ -45,15 +45,28 @@ Also, they are in the process of creating a social media presence and would like
 
 I have intently followed the brief and modelled my website on a simple but effective navigation structure. This is to keep the older generation of fans safe and happy through the navigation and scrolling through the website. However I have kept a fresh minimalist theme in order to not scare away the potential younger fan base.
 
+### User Stories
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+ EXAMPLE FORMAT{ As a user type, I want to perform an action, so that I can achieve a goal.}
+ 
+- As an existing fan, I want to find out the details of the bands tour, So I can see if they are performing near me and to get tickets.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- As a new potential fan, I want to know more about the band, in order for me to choose whether I find out whether I want to follow them on social media.
+
+- As a avid music fan, I want to find out whether they have any samples of their music, so I can satisfy my undying need to listen to new hot artists.
+
+- As a mid 20's male with a short attention span, I want to see lots of big exciting pictures, in order for me to invest in the band.
+
+- As a young women who has multiple crushes on men who play in bands, I want to easily navigate from all the media on the websites pages, to distinguish which member is going to be my next dreamboat.
+
+### Wireframes
+
+I have created a few wireframes before I started coding the initial structure. I did this to better understand what I needed to include, what it would roughly look like and the space it could potentially fill. To See them please follow the link below or navigate to the 'Wireframes' folder in my git repository:
+https://github.com/sps992/UCF-Milestone-Project/tree/master/Wireframes
 
 ## Features
 
-In this section, I am going to analyse the different parts of the website. What I have used in those parts and why.
+I have kept the overall layout and features simple and well spaced. This is to keep the user experience as positive as possible, which enables the end-user to freely and quickly navigate through the websites pages with ease, whilst not needing any prior knowledge of the website. In the next section I will describe the features that currently exist on the website, why I have used them the way I have and how it is in-keeping with the websites positive feel.
  
 ### Existing Features
 
@@ -70,8 +83,6 @@ In this section, I am going to analyse the different parts of the website. What 
 
 ### Features Left to Implement
 - Server-side Validation - As this project focuses solely on frontend web developing, I have not set up any server-side validation for the contact form. This is always good practice to have in the real world as you are not relying on frontend alone for validation and will then avoid the pitfulls that come with relying on frontend validation.
-
-- 
 
 ## Technologies Used
 
@@ -90,8 +101,8 @@ https://jquery.com/
 
 I feel I have throughly tested my site in multiple ways.
 Firstly, I have used the top navigation bar to navigate from one page to another in all the different combinations to check I haven't got any deadlinks. I have also added dummy links to my social links at the bottom. Why? This way I have tested that the anchor tag is working correctly and can be implemented properly if my website was in the real world and had working links.
-
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
