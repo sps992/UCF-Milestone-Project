@@ -51,13 +51,13 @@ I have intently followed the brief and modelled my website on a simple but effec
  
 - As an existing fan, I want to find out the details of the bands tour, So I can see if they are performing near me and to get tickets.
 
-- As a new potential fan, I want to know more about the band, in order for me to choose whether I find out whether I want to follow them on social media.
+- As a new potential fan, I want to know more about the band, in order for me to choose whether I want to book them for my event.
 
 - As a avid music fan, I want to find out whether they have any samples of their music, so I can satisfy my undying need to listen to new hot artists.
 
 - As a mid 20's male with a short attention span, I want to see lots of big exciting pictures, in order for me to invest in the band.
 
-- As a young women who has multiple crushes on men who play in bands, I want to easily navigate from all the media on the websites pages, to distinguish which member is going to be my next dreamboat.
+- As a young woman who has multiple crushes on men who is a musician in a band, I want to easily navigate from all the media on the websites pages, to distinguish which member is going to be my next dreamboat.
 
 ### Wireframes
 
@@ -104,16 +104,40 @@ Firstly, I have used the top navigation bar to navigate from one page to another
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I have used the W3C markup validator to double-check my code to make-sure there wasn't any errors. I have documented my results here:
+https://github.com/sps992/UCF-Milestone-Project/blob/master/Nu%20Html%20Checker%20result.pdf
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+<h5>Testing User Stories</h5>
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. "As an existing fan, I want to find out the details of the bands tour, So I can see if they are performing near me and to get tickets."-Tour Date Table:
+    1. Land on website from organic or generated search engine result.
+    2. Scroll down "index.html" until tour table is centered in viewpoint.
+    
+2. "As a potential fan, I want to know more about the band, in order for me to choose whether I want to book them for my event." - About article on "index.html" and contact form on "hireus.html".
+    1. Land on website from organic or generated search engine result.
+    2. Read article titled "About Us" below hero image on "index.html".
+    3. Navigate to "Hire Us" in the top navigational bar
+    4. Successfully enter name in first box to avoid bootstrap validation error alert.
+    5. Successfully enter contact number in second box to avoid bootstrap validation error alert.
+    6. Successfully enter email in third box to avoid bootstrap validation error alert.
+    7. Enter optional message in box to add booking details and extra comments needed. This step is optional as the form now has all contact details to contact end-user if this step was in fact skipped.
+    8. Press "Send Project Request" to submit form.
+    
+3. "As a avid music fan, I want to find out whether they have any samples of their music, so I can satisfy my undying need to listen to new hot artists." - audio clips on "music.html".
+    1. Land on website from organic or generated search engine result.
+    2. Navigate to "Music" in the top navigational bar.
+    3. Press the play button in the audio controls tag.
+    4. Enjoy
 
+4. "As a mid 20's male with a short attention span, I want to see lots of big exciting pictures, in order for me to invest in the band." - Photo Carousel on "photos.html".
+    1. Land on website from organic or generated search engine result.
+    2. Navigate to "Photos" in the top navigational bar.
+    3. Scroll down to photo carousel.
+    4. Click directional pointers or either side of the image, to flick through the photos.
+   
+<h5>Media Queries and Viewport sizes</h5>
+
+In this project I have worked heavily with the Bootstrap grid system. This has alowed me to easily create a website tha looks good on all devices and viewport dimensions. I tried my best to make the content use the available 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
