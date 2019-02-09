@@ -127,7 +127,7 @@ https://github.com/sps992/UCF-Milestone-Project/blob/master/Nu%20Html%20Checker%
     1. Land on website from organic or generated search engine result.
     2. Navigate to "Music" in the top navigational bar.
     3. Press the play button in the audio controls tag.
-    4. Enjoy
+    4. Enjoy.
 
 4. "As a mid 20's male with a short attention span, I want to see lots of big exciting pictures, in order for me to invest in the band." - Photo Carousel on "photos.html".
     1. Land on website from organic or generated search engine result.
@@ -137,29 +137,25 @@ https://github.com/sps992/UCF-Milestone-Project/blob/master/Nu%20Html%20Checker%
    
 <h5>Media Queries and Viewport sizes</h5>
 
-In this project I have worked heavily with the Bootstrap grid system. This has alowed me to easily create a website tha looks good on all devices and viewport dimensions. I tried my best to make the content use the available 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+In this project I have worked heavily with the Bootstrap grid system. This has alowed me to easily create a website tha looks good on all devices and viewport dimensions. I have, to the best of my ability, made the content use the pre-programmed device breakpoints.
+I had a bit of an issue with the footer sticking to the bottom on larger screen widths. I quick fixed this problem by adding more content and giving this content plenty of padding to push the footer to the bottom by default. I ran my website through a validator again to check if there was an issue but it didn't flag anything obvious. So I just kept with my quick fix.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+My deployment was pretty simple as far as deployment goes. I was coding in a Cloud9 html5 workspace called 'fiveskin-rockband-project.
+I had initialised the git repository using the console command 'git init'. After double-checking I was ready, I committed the initial commit using the console command 'git commit -m "initial commit"'. This commit was the base of the web project with the main structure of the pages and basic css, js and jQuery needed to run the navigational bar and other basic functions. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Next, I linked the Cloud9 workspace to GitHub by using the 'push' command and entering my log in credientials for my GitHub account. I repeated this sequence until I was happy with the website in its entirety. My next step was to deploy it so it could be viewed as a live website. For ease, I did this using the 'GitHub Pages' feature. Which is located in the settings menu of the GitHub repository. You can view it now on:
+https://sps992.github.io/UCF-Milestone-Project/
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To run my code locally, you would just need to download my GitHub repository and extract it into local folder and VOILA.
 
 
 ## Credits
-
+- As for credits I don't think there is anyone I haven't mentioned in 'Acknowledgements' at the bottom of this page. However I would like to thank Nescafé for its wonderful coffee...surely no explanation needed there!
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- I created all the text and content filler for my website that I haven't included in the 'Media' paragraph myself using knowledge I already know. I would like to say that all information on the website is completely fictional and made up from the craziness in my head.
 
 ### Media
 In this project I have used the following royalty free material...
@@ -174,3 +170,6 @@ In this project I have used the following royalty free material...
 - I would like to thank the w3schools website( https://www.w3schools.com/default.asp ) for saving me hours of scrolling through half-decent threads on Stack Overflow before I got the information I need.
 
 - On that note I would also like to thank multiple threads on Stack Overflow for giving me hints and tips on the more fiddly css elements that I wanted to manipulate.
+
+- The Bootstrap website also helped me to further understand the code and bend it to my will. (https://getbootstrap.com/)
+
