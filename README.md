@@ -21,7 +21,7 @@ The band needs to be a 1960’s rock band and have around 50 years experience of
 <h5>Anything Else?</h5>
 
 The band would also like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
-The band has provided you, the developer, with the following assets that they would like to showcase on their website:
+The band has provided me, the developer, with the following assets that they would like to showcase on their website:
 Photos of the band members
 A video clip
 Audio clips
@@ -37,13 +37,13 @@ Also, they are in the process of creating a social media presence and would like
 
 <li>I will then progress to implementing the intial code in order to made this happen.</li>
 
-<li>Lastly, but by far not the least important! I wil check over my code with a fine tooth comb and makesure everything is looking as it should and look for grammatical errors.</li>
+<li>Lastly, but by far not the least important! I wil check over my code with a fine tooth comb and makesure everything is looking as it should and look for grammatical errors and deploy to a live staging area.</li>
 
 </ol>
  
 ## UX
 
-I have intently followed the brief and modelled my website on a simple but effective navigation structure. This is to keep the older generation of fans safe and happy through the navigation and scrolling through the website. However I have kept a fresh minimalist theme in order to not scare away the potential younger fan base.
+I have intently followed the brief and modelled my website on a simple but effective navigation structure. This is to keep the older generation of fans safe and happy through the navigation and scrolling through the website. However I have kept a fresh minimalist theme in order to not scare away the potential younger fan base. It works well on all devices using Bootstrap pre-defined device breakpoints by keeping the information well presented at all widths and easy to navigate without prior experience of the websites structure.
 
 ### User Stories
 
